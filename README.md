@@ -1,4 +1,4 @@
-# ROS 2 Chatbot — Alice & Bob
+# ROS 2 Bot Communication — Alice & Bob
 
 Two ROS 2 nodes that hold a scripted conversation using a custom service.
 
@@ -37,5 +37,3 @@ source /opt/ros/jazzy/setup.bash
 source install/setup.bash
 ros2 run chatbot_nodes alice
 ```
-
-Alice will send her scripted lines one by one; the conversation prints in both terminals.
